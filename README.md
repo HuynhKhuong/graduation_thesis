@@ -13,7 +13,7 @@ My graduation thesis is to build a model of a **SCARA** Robotic arm and make use
 
 Details of solutions are provided in the report of my thesis
 
-## 1. Robot armm kinematics fundamentals
+## 1. Robot arm kinematics fundamentals
 
 To control Robotic arms, we use the conventional robotic knowledge including:
 - **Forward Kinemtaics**: from joints' variables, we calculate the x-y-z coordinate of end-effector.
