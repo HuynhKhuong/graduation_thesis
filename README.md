@@ -32,3 +32,5 @@ We implement [FDM](https://all3dp.com/2/fused-deposition-modeling-fdm-3d-printin
 - **Flowrate**: means the pressure created to dispose filament on the printing table. To attain best quality of printing line, this parameter must be modified to meet perfectly with robot speed.
 
 **Code and documentations:** Solutions for those 2 targets are given in my report and the code are provided in the project: [temperature_control](./Temperature_Control/) 
+
+***[DEMOS](https://drive.google.com/file/d/1iIkxaK8xl6yTKCHJwZcBmDrm86fEgeQ7/view?usp=sharing)***
