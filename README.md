@@ -4,6 +4,7 @@ The repository containing my graduation thesis' codes and projects (this thesis 
 # Overview
 
 My graduation thesis is to build a model of a **SCARA** Robotic arm and make use of it in 3D printing. To achieve the target, the thesis focuses on 2 main topics:
+
 **1. Robot arms Kinematics fundamentals**
 **2. Integration of 3D printing technology**
 
