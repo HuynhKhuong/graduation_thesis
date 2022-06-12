@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"temperature_control\startup_stm32f103xb.o"
+"temperature_control\ads1220.o"
+"temperature_control\stepperrpm.o"
+"temperature_control\main.o"
+"temperature_control\stm32f1xx_it.o"
+"temperature_control\stm32f1xx_hal_msp.o"
+"temperature_control\stm32f1xx_hal_gpio_ex.o"
+"temperature_control\stm32f1xx_hal_spi.o"
+"temperature_control\stm32f1xx_hal.o"
+"temperature_control\stm32f1xx_hal_rcc.o"
+"temperature_control\stm32f1xx_hal_rcc_ex.o"
+"temperature_control\stm32f1xx_hal_gpio.o"
+"temperature_control\stm32f1xx_hal_dma.o"
+"temperature_control\stm32f1xx_hal_cortex.o"
+"temperature_control\stm32f1xx_hal_pwr.o"
+"temperature_control\stm32f1xx_hal_flash.o"
+"temperature_control\stm32f1xx_hal_flash_ex.o"
+"temperature_control\stm32f1xx_hal_exti.o"
+"temperature_control\stm32f1xx_hal_tim.o"
+"temperature_control\stm32f1xx_hal_tim_ex.o"
+"temperature_control\stm32f1xx_hal_uart.o"
+"temperature_control\system_stm32f1xx.o"
+--strict --scatter "Temperature_Control\Temperature_Control.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Temperature_Control.map" -o Temperature_Control\Temperature_Control.axf
