@@ -3,7 +3,7 @@ The repository containing my graduation thesis' codes and projects (this thesis 
 
 # Overview
 
-My graduation thesis is to build a model of a **SCARA** Robotic arm and make use of it in 3D printing. To achieve the target, the thesis focuses on 2 main topics:
+My graduation thesis is to build a model of a **SCARA** Robotic arm and make use of it to print 3D objects. To achieve the target, the thesis focuses on 2 main topics:
 
 **1. Robot arms Kinematics fundamentals**
 
@@ -23,7 +23,7 @@ To control Robotic arms, we use the conventional robotic knowledge including:
 - **Trajectories planning**: an application of motion control, to prevent massive jerks in robot motions. In this section, we use math algorithms to control robot's velocity and acceleration in relation with time (t) variable.
 - **Path planning**: an application of forming path shape in (x-y-z) coordinate. In this section, we map the calculated velocity to a specific path to guide the robot traveling. 
 
-**Code and documentations:** Details of these fundamentals are written in my report. Meanwhile, code and projects are inherited from [a thesis](https://github.com/purelifexx1/grad2.git)  which belongs to my brother who works in same lab
+**Code and documentations:** Details of these fundamentals are written in my report. Meanwhile, code and projects are inherited from [a thesis](https://github.com/purelifexx1/grad2.git)  which belongs to my brother in lab
 
 ## 2. Integration of 3D printing technology
 
